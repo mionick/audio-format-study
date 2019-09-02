@@ -1,6 +1,20 @@
-# Project Title
+# Audio Research 
 
-One Paragraph of project description goes here
+This project is mean to examine the Audio file formats, re-familiarize myself with Java (specifically Java 8), and get more experience manipulating and working with binary data. 
+Main goal as of now is to successfully decode and play an mp3 audio file though, I'm going to start with a simpler .wav format. 
+
+## Lessons
+### ID3 Tags
+
+An MP3 file, like other audio formats can be wrapped in a ID3 Tag.
+The ID3 specification is here: http://id3.org/id3v2.4.0-structure
+
+It consists of a header which gives the size, one or more frames of tag data, and some padding.
+It can be mostly read as text data with a few special characters, which makes it fairly easy to identify in a text editor. 
+
+The ID3 tag can either be prepended or appended to the audio data. 
+
+Once that has been stripped off, the rest of the data is the actual MP3 format. 
 
 ## Getting Started
 

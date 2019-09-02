@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mp3-study.iml" filepath="$PROJECT_DIR$/mp3-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/audio-format-study.iml" filepath="$PROJECT_DIR$/audio-format-study.iml" />
     </modules>
   </component>
 </project>
